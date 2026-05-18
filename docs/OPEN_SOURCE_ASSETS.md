@@ -5,7 +5,7 @@ This Unity project contains a large amount of third-party and binary content. Do
 ## Current size profile
 
 - `Assets/`: about 26 GB.
-- Largest folders include `Assets/SAO`, `Assets/Knife`, `Assets/Resources`, `Assets/Frank_Slash_Pack`, `Assets/InsaneGunner`, `Assets/Rifle_27A2_Pro`, and `Assets/Oculus`.
+- Largest folders include `Assets/SubspaceHunter`, `Assets/Resources`, `Assets/Knife`, `Assets/Frank_Slash_Pack`, `Assets/InsaneGunner`, `Assets/Rifle_27A2_Pro`, and `Assets/Oculus`.
 - Several individual files are above 100 MiB, including large textures, videos, fonts, DLLs, and imported models.
 
 ## GitHub strategy
@@ -23,6 +23,7 @@ Use this split:
 Review these before making the repository public:
 
 - `Assets/SAO`
+- `Assets/SubspaceHunter`
 - `Assets/Knife`
 - `Assets/Frank_Slash_Pack`
 - `Assets/InsaneGunner`
@@ -44,13 +45,16 @@ Recommended:
 
 ```text
 Assets/
-  SAO/Script/
-  SAO/AR/Script/
+  SubspaceHunter/Script/
+  SubspaceHunter/Scenes/Script/
+  PublicDemo/PublicScenes/
   Resources/Configs/
 Packages/
 ProjectSettings/
 docs/
 ```
+
+`Assets/PublicDemo/PublicScenes/` is included through Git LFS because the scene files are important project content. The scenes are not self-contained yet; their external asset dependencies are tracked in `docs/PUBLIC_DEMO_DEPENDENCIES.zh-CN.md`.
 
 Optional or restricted assets should be replaced with placeholders, moved to a separate private archive, or provided through documented import steps.
 
@@ -71,4 +75,3 @@ Optional or restricted assets should be replaced with placeholders, moved to a s
    ```
 
 5. Do a clean clone test on another path before publishing.
-

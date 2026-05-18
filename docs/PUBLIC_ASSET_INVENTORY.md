@@ -8,14 +8,15 @@ Already published:
 
 - `Packages/`
 - `ProjectSettings/`
-- `Assets/SAO/Script/**/*.cs`
-- `Assets/SAO/AR/Script/**/*.cs`
+- `Assets/SubspaceHunter/Script/**/*.cs`
+- `Assets/SubspaceHunter/Scenes/Script/**/*.cs`
+- `Assets/PublicDemo/PublicScenes/*.unity` through Git LFS
 - matching script and folder `.meta` files
 - project documentation
 
 Not yet published:
 
-- scenes
+- self-contained runnable demo scenes
 - prefabs
 - models
 - textures
@@ -41,7 +42,8 @@ Local `Assets/` is about 26 GB. Largest top-level folders:
 
 | Path | Size | Files | Class | Recommendation |
 | --- | ---: | ---: | --- | --- |
-| `Assets/SAO` | 4692.88 MB | 5784 | Mixed | Keep scripts public; split art/media into review batches |
+| `Assets/SubspaceHunter` | mixed | mixed | Mixed | Keep scripts and PublicDemo scene references public; split art/media into review batches |
+| `Assets/SAO` | legacy/moved | legacy/moved | Mixed | Script content has moved to `Assets/SubspaceHunter`; review any remaining local content before publishing |
 | `Assets/Knife` | 2316.05 MB | 1284 | D | Do not publish unless license allows redistribution |
 | `Assets/Resources` | 2311.42 MB | 1991 | Mixed/D | Do not publish as-is; replace or move reviewed assets to LFS |
 | `Assets/Frank_Slash_Pack` | 1723.85 MB | 2372 | D | Do not publish unless license allows redistribution |
@@ -71,27 +73,22 @@ Local `Assets/` is about 26 GB. Largest top-level folders:
 | `Assets/ARPG Effects` | 132.52 MB | 797 | D | Do not publish unless license allows redistribution |
 | `Assets/SkinnedDecal` | 131.07 MB | 390 | D/C | Review license before publishing |
 
-## `Assets/SAO` Breakdown
+## `Assets/SubspaceHunter` Breakdown
 
-`Assets/SAO` is the main project content folder, but it is mixed code, scenes, fan/IP-inspired assets, third-party assets, and media. Treat only the script folders as public for now.
+`Assets/SubspaceHunter` is the reorganized main project content folder, but it is mixed code, scenes, fan/IP-inspired assets, third-party assets, and media. Treat only the script folders and approved PublicDemo scenes as public for now.
 
 | Path | Size | Files | Class | Recommendation |
 | --- | ---: | ---: | --- | --- |
-| `Assets/SAO/Script` | 0.86 MB | 501 | A | Already public |
-| `Assets/SAO/AR/Script` | about 0.01 MB | 12 | A | Already public |
-| `Assets/SAO/Model` | 1404.64 MB | 1300 | D | Do not publish; replace with original placeholder models |
-| `Assets/SAO/AR` | 1015.48 MB | 348 | Mixed/D | Do not publish scenes/media yet; create minimal demo scene separately |
-| `Assets/SAO/Font` | 839.77 MB | 32 | D/B | Review font licenses; SDF assets are very large |
-| `Assets/SAO/3rd` | 685.75 MB | 383 | C/D | Split by third-party package and license |
-| `Assets/SAO/Sounds` | 301.26 MB | 1306 | D | Do not publish until every sound license is known |
-| `Assets/SAO/Images` | 140.99 MB | 828 | D/B | UI art may include SAO-derived assets; review before publishing |
-| `Assets/SAO/Sky` | 96.96 MB | 26 | D/B | Review HDRI/skybox license |
-| `Assets/SAO/Vedio` | 87.81 MB | 62 | D | Do not publish videos |
-| `Assets/SAO/Animator` | 71.31 MB | 582 | D/B | Review animation source; many files may depend on restricted models |
-| `Assets/SAO/Effect` | 32.91 MB | 105 | D/B | Review effect pack/license |
-| `Assets/SAO/LoadingScene` | 12.22 MB | 117 | D/B | Review UI/assets before publishing |
-| `Assets/SAO/Shader` | 0.03 MB | 11 | B | Can publish after checking shader source/license |
-| `Assets/SAO/AI_config` | 0.02 MB | 5 | B | Review for secrets/config values |
+| `Assets/SubspaceHunter/Script` | 0.86 MB | 501 | A | Already public after path migration |
+| `Assets/SubspaceHunter/Scenes/Script` | about 0.01 MB | 12 | A | Already public after path migration |
+| `Assets/PublicDemo/PublicScenes` | 630.54 MB | 23 | B/E | Included through Git LFS; dependencies still require review |
+| `Assets/SubspaceHunter/Model` | 1913.82 MB | mixed | D/E | Do not publish broadly; replace or review model sources one by one |
+| `Assets/SubspaceHunter/Font` | 839.77 MB | mixed | D/B/E | Review font licenses; SDF assets are very large |
+| `Assets/SubspaceHunter/3rd` | 685.75 MB | mixed | C/D/E | Split by third-party package and license |
+| `Assets/SubspaceHunter/Sounds` | 363.66 MB | mixed | D | Do not publish until every sound license is known |
+| `Assets/SubspaceHunter/Images` | 140.99 MB | mixed | D/B | UI art may include SAO-derived assets; review before publishing |
+| `Assets/SubspaceHunter/Effect` | 32.91 MB | mixed | D/B | Review effect pack/license |
+| `Assets/SubspaceHunter/Material` | 17.96 MB | mixed | B | Review texture/source dependencies before publishing |
 
 ## `Assets/Resources` Breakdown
 
@@ -175,4 +172,3 @@ Suggested order:
 - Any `.unitypackage` installer files.
 - Any plugin DLL/bundle/dylib unless the license explicitly allows public redistribution.
 - Any API key, keystore, database containing user data, or service credential.
-

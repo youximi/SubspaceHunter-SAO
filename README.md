@@ -18,19 +18,20 @@ See [docs/OPEN_SOURCE_ASSETS.md](docs/OPEN_SOURCE_ASSETS.md) for the asset polic
 
 - `Packages/`
 - `ProjectSettings/`
-- Shareable scripts under `Assets/SAO/Script`
-- Shareable scripts under `Assets/SAO/AR/Script`
+- Shareable scripts under `Assets/SubspaceHunter/Script`
+- Shareable scene helper scripts under `Assets/SubspaceHunter/Scenes/Script`
+- Public demo scene files under `Assets/PublicDemo/PublicScenes` via Git LFS
 - Project documentation
 
 ## Not included yet
 
 - Paid Asset Store packages
-- Large textures, models, scenes, videos, audio, baked data, and generated Unity cache files
+- Large textures, models, videos, audio, baked data, and generated Unity cache files
 - Copyrighted or license-unclear character and environment assets
 
 ## Opening the project
 
-This repository is not yet a complete playable checkout. To run the original project, restore the required asset folders from a licensed local copy, then open it with Unity `2021.3.45f1`.
+This repository is not yet a complete playable checkout. The public demo scenes are included, but many referenced models, prefabs, sounds, fonts, SDKs, and effects are intentionally omitted until their redistribution rights are confirmed. To run the original project, restore the required asset folders from a licensed local copy, then open it with Unity `2021.3.45f1`.
 
 ## Notes for contributors
 
@@ -38,4 +39,3 @@ This repository is not yet a complete playable checkout. To run the original pro
 - Use Git LFS for large binary assets when they are approved for redistribution.
 - Keep Unity `.meta` files with any committed asset.
 - Do not commit API keys, service credentials, keystores, or private database files.
-
