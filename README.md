@@ -1,2 +1,41 @@
 # SubspaceHunter-SAO
-一个开源可商用的XR动作游戏开源框架以及美术资产，灵感来源于SAO ；An open-source and commercially viable framework for XR action games, along with art assets, inspired by SAO.
+
+SubspaceHunter-SAO is an open-source Unity XR action game framework inspired by SAO-style interaction and combat. The repository is being prepared in stages so the code can be shared safely while large assets and third-party content are reviewed.
+
+## Repository status
+
+This public repository currently focuses on the Unity project configuration and shareable source code. The full local project contains many large binary assets and third-party or copyrighted resources that need license review before redistribution.
+
+See [docs/OPEN_SOURCE_ASSETS.md](docs/OPEN_SOURCE_ASSETS.md) for the asset policy and Git LFS notes.
+
+## Unity version
+
+- Unity Editor: `2021.3.45f1`
+- Main platform target: Android / Quest-style XR
+- XR packages: Oculus XR, OpenXR, XR Management
+
+## Included
+
+- `Packages/`
+- `ProjectSettings/`
+- Shareable scripts under `Assets/SAO/Script`
+- Shareable scripts under `Assets/SAO/AR/Script`
+- Project documentation
+
+## Not included yet
+
+- Paid Asset Store packages
+- Large textures, models, scenes, videos, audio, baked data, and generated Unity cache files
+- Copyrighted or license-unclear character and environment assets
+
+## Opening the project
+
+This repository is not yet a complete playable checkout. To run the original project, restore the required asset folders from a licensed local copy, then open it with Unity `2021.3.45f1`.
+
+## Notes for contributors
+
+- Do not commit `Library/`, `Temp/`, `Logs/`, `UserSettings/`, `.csproj`, or `.sln` files.
+- Use Git LFS for large binary assets when they are approved for redistribution.
+- Keep Unity `.meta` files with any committed asset.
+- Do not commit API keys, service credentials, keystores, or private database files.
+
