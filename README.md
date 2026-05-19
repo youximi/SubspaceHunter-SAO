@@ -2,21 +2,40 @@
 
 中文 | [English](README.en.md)
 
-SubspaceHunter-SAO 是一个开源 Unity XR 动作游戏项目框架，围绕类似 SAO 风格的交互、战斗和场景体验进行整理。当前仓库正在分阶段公开，目标是在不误传大体量资源、第三方资源和版权不明确内容的前提下，先公开可共享的项目结构、配置、脚本和 demo 场景。
+SubspaceHunter-SAO 是一个开源的可商用的 Unity XR(VR+MR) 动作游戏项目框架以及可商用的原创美术资产、代码、特效、UI等；围绕类似 SAO 风格的交互、战斗和场景体验进行开源与教学。
 
-## 仓库状态
+## 通过本项目你将学会/获得
+1.如何构建支持Meta Quest等XR一体机应用的开发、环境设置
+2.如何优化VR场景性能以及渲染处理
+3.带有物理的冷兵器刀剑战斗系统、魔法战斗系统、枪械战斗系统
+4.敌人角色物理系统打击感模拟（打击特效、音效）
+5.九种可拓展的敌人行为树AI战斗逻辑、技能设计、距离控制、动画控制
+6.XR设备粒子特效系统的处理与优化
+7.XR原生的手势追踪UI交互系统与UI动画构建
+8.MR场景下与环境相融合的阴影处理
+9.XR设备串流调试与开发
+10.9个关卡场景、数种武器道具、十几种不同风格的士兵级、领主级、Boss级敌人美术资产
+11.学会使用Cardinal AI生成配音、音乐、3D模型、UI等AIGC功能辅助开发
 
-这个公开仓库目前主要包含 Unity 项目配置、可共享源码、公开 demo 场景和项目文档。完整本地项目仍包含大量二进制资源、第三方资源和可能涉及版权的内容，这些内容需要完成许可确认后，才会以外部资源包方式分发。
+## 开源、可商用资产说明
 
-资源处理策略见 [docs/OPEN_SOURCE_ASSETS.zh-CN.md](docs/OPEN_SOURCE_ASSETS.zh-CN.md)，外部 `.unitypackage` 资源包方案见 [docs/EXTERNAL_ASSET_PACKAGES.zh-CN.md](docs/EXTERNAL_ASSET_PACKAGES.zh-CN.md)。
+
+## 第三方资产、IP相关资产说明
+
+
+## 项目资源状态
+
+这个公开仓库目前主要包含 Unity 项目配置、可共享源码、公开 demo 场景和项目文档。完整项目资源：3D模型、贴图、音效、音乐等大体量资源需要通过下方的第三方云链接下载Unitypackage并导入。
+
+详细资源见 [docs/OPEN_SOURCE_ASSETS.zh-CN.md](docs/OPEN_SOURCE_ASSETS.zh-CN.md)，外部 `.unitypackage` 资源包方案见 [docs/EXTERNAL_ASSET_PACKAGES.zh-CN.md](docs/EXTERNAL_ASSET_PACKAGES.zh-CN.md)。
 
 ## Unity 版本
 
 - Unity Editor：`2021.3.45f1`
-- 主要目标平台：Android / Quest 类 XR 设备
+- 主要目标平台：Android / Quest / PCVR 设备
 - XR 相关包：Oculus XR、OpenXR、XR Management
 
-## 当前包含
+## Github仓库包含
 
 - `Packages/`
 - `ProjectSettings/`
@@ -25,15 +44,12 @@ SubspaceHunter-SAO 是一个开源 Unity XR 动作游戏项目框架，围绕类
 - `Assets/PublicDemo/PublicScenes` 下的公开 demo 场景文件，当前通过 Git LFS 管理
 - 项目文档
 
-## 暂不包含
 
-- 付费 Asset Store 资源包
-- 大体量贴图、模型、视频、音频、烘焙数据和 Unity 生成缓存
-- 涉及版权或许可证不明确的角色、环境和素材资源
+
 
 ## 打开项目
 
-这个仓库目前还不是完整可直接游玩的项目检出。公开 demo 场景当前作为过渡方案保留在仓库中，长期方案是把经过确认的大体量资源整理为外部 `.unitypackage`，并单独记录需要安装的依赖。若要运行原始完整项目，需要从合法授权的本地副本恢复所需资源目录，然后使用 Unity `2021.3.45f1` 打开。
+下载Github仓库资产后使用 Unity `2021.3.45f1` 打开，再下载资产Unitypackage包后导入项目。
 
 ## 贡献注意事项
 
