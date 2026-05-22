@@ -58,12 +58,6 @@ https://www.bilibili.com/video/BV1mW421X7jg/<br>
 项目中涉及第三方资产包、插件、SDK 和库时，商业化前需要由使用者自行确认授权范围、购买状态和再分发条款。当前审计清单见 [docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md](docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md)。
 
 
-## 项目资源状态
-
-这个公开仓库目前主要包含 Unity 项目配置、可共享源码、公开 demo 场景和项目文档。完整项目资源：3D模型、贴图、音效、音乐等大体量资源需要通过下方的第三方云链接下载Unitypackage并导入。  
-
-需要导入的UnityPackage资源：链接: https://pan.baidu.com/s/15FRPMi91qJzsarMVTewV6g?pwd=bx4w 提取码: bx4w 
-
 
 ## Unity 版本
 
@@ -83,9 +77,12 @@ https://www.bilibili.com/video/BV1mW421X7jg/<br>
 
 
 
-## 打开项目
+## 快速开始
 
-下载Github仓库资产后使用 Unity `2021.3.45f1` 打开，再下载资产Unitypackage包后导入项目。
+1.下载Github仓库资产<br>
+2.使用 Unity `2021.3.45f1` 打开<br>
+3.载资产Unitypackage包，链接: https://pan.baidu.com/s/15FRPMi91qJzsarMVTewV6g?pwd=bx4w 提取码: bx4w <br>
+4.将unitypackage导入项目<br>
 
 ## 贡献注意事项
 
