@@ -4,7 +4,10 @@
 中文 | <a href="README.en.md">English</a>
 </h3>
 
-SubspaceHunter-SAO 是一个开源的可商用的 Unity XR(VR+MR) 动作游戏项目框架以及可商用的原创美术资产、代码、特效、UI等；围绕类似 SAO 风格的交互、战斗和场景体验进行开源与教学。
+SubspaceHunter-SAO 是一个开源的可商用的 Unity XR(VR+MR) 动作游戏项目框架以及可商用的原创美术资产、代码、特效、UI等；围绕类似 SAO 风格的交互、战斗和场景体验进行开发的项目。
+项目在2022年由年仅22岁的Hexin Wang 在UCAS大学的宿舍中开发并免费发布下载；国内外社交媒体上传播的刀剑神域VR、SAO、Sword Art Online、以及2023年的Quest3 SAO视频均出自于此项目；
+项目发起的初心是为了构建一个完全沉浸式基于脑机接口的无限庞大的多人在线虚拟世界，但由于当时技术不发达以及AI尚未崛起的原因，凭借个人的力量无法实现如此宏大的计划；在2026年Hexin Wang
+转向World Model创业，希望能通过AIGC能力解决大规模3D可交互内容的生产力需求，让每一个人都能制作初属于自己的3A世界。
 
 <p align="center">
   <img src="docs/images/readme-hero.png" alt="SubspaceHunter-SAO 项目 Logo" width="720">
