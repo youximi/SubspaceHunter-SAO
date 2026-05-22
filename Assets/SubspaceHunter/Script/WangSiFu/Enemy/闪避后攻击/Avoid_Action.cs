@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 敌人闪避反击 / Enemy dodge counterattack
+ * 功能 / Purpose: 控制敌人闪避后的追击、反击或动作衔接。
+ * English: Controls enemy follow-up, counterattack, or action chaining after dodging.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

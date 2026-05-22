@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 敌人出场与武器显隐 / Enemy entrance and weapon visibility
+ * 功能 / Purpose: 控制敌人出场阶段、行为树启用时机和武器模型显示。
+ * English: Controls enemy entrance timing, behavior-tree activation, and weapon model visibility.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

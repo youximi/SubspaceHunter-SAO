@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 场景剔除 / Scene culling
+ * 功能 / Purpose: 根据场景需求控制地面或环境对象的剔除显示。
+ * English: Controls culling visibility for ground or environment objects based on scene needs.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

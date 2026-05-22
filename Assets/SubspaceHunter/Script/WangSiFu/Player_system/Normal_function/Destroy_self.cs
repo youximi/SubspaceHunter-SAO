@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 玩家通用工具 / Player utility
+ * 功能 / Purpose: 提供玩家对象或临时对象的通用生命周期工具。
+ * English: Provides common lifecycle utilities for player-related or temporary objects.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

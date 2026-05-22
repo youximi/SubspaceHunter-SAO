@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 战斗流程管理 / Battle flow management
+ * 功能 / Purpose: 负责战斗开始、敌人选择与生成、计时、胜负判断和战斗音乐切换。
+ * English: Handles battle start, enemy selection and spawning, timing, win/loss decisions, and combat music switching.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

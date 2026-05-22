@@ -53,6 +53,10 @@ Heathcliff, The Gleam Eyes, Kobold Lord, stone golem, man-eating flower, Nicolas
 
 When the project involves third-party asset packages, plugins, SDKs, and libraries, users must confirm the authorization scope, purchase status, and redistribution terms before commercial use. The current audit checklist is available at [docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md](docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md).
 
+## Project Architecture and Feature Logic
+
+For code modules, public demo scene entry points, and the battle, enemy, weapon, skill, UI, and data systems, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
 ## Unity Version
 
 - Unity Editor: `2021.3.45f1`

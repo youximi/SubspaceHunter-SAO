@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 镜像/镜子表现 / Mirror presentation
+ * 功能 / Purpose: 处理镜子或镜像对象的运动同步表现。
+ * English: Handles movement synchronization for mirrors or mirrored objects.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

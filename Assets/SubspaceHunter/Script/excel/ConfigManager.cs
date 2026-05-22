@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 配置表入口 / Configuration table entry
+ * 功能 / Purpose: 读取 Luban/Excel 生成配置，向运行时代码提供表格数据入口。
+ * English: Reads Luban/Excel generated configuration and exposes table data to runtime code.
+ */
+
 using GameConfig;
 using Luban;
 using UnityEngine;

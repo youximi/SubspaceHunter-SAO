@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 调试相机控制 / Debug camera control
+ * 功能 / Purpose: 提供开发调试或演示用的自由相机移动能力。
+ * English: Provides free-camera movement for development debugging or demos.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

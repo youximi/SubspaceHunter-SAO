@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 控制器魔法输入 / Controller magic input
+ * 功能 / Purpose: 把控制器输入映射到魔法选择、准备和释放流程。
+ * English: Maps controller input to magic selection, preparation, and release flow.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

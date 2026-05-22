@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 系统 UI 跟随 / System UI follow
+ * 功能 / Purpose: 让系统 UI 面板跟随玩家或摄像机位置。
+ * English: Makes system UI panels follow the player or camera position.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

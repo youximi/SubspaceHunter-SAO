@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 系统时间显示 / System time display
+ * 功能 / Purpose: 读取并显示系统时间，用于 UI 或演示面板。
+ * English: Reads and displays system time for UI or demo panels.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

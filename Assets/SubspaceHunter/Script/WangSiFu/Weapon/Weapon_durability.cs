@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 武器交互 / Weapon interaction
+ * 功能 / Purpose: 处理左右手检测、武器切换、耐久度和命中特效入口。
+ * English: Handles left/right hand detection, weapon switching, durability, and hit-effect entry points.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;

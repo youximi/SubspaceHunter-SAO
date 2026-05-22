@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 玩家系统 / Player system
+ * 功能 / Purpose: 管理玩家生命、资源、VR 控制、状态重置和战斗交互入口。
+ * English: Manages player HP, resources, VR control, state reset, and combat interaction entry points.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

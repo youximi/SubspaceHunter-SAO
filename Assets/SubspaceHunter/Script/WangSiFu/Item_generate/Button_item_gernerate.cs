@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 道具生成 / Item generation
+ * 功能 / Purpose: 根据 UI 或场景事件生成武器、道具或演示物体。
+ * English: Generates weapons, items, or demo objects from UI or scene events.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

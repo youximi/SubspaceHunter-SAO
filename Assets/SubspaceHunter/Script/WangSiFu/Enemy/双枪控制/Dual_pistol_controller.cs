@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 敌人双枪控制 / Enemy dual-pistol control
+ * 功能 / Purpose: 管理敌人双枪武器、射击动作和相关特效触发。
+ * English: Manages enemy dual-pistol weapons, shooting actions, and related effect triggers.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using Knife.Effects.SimpleController;

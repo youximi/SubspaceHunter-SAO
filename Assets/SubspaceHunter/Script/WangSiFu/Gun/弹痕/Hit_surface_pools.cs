@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 弹痕对象池 / Bullet decal pool
+ * 功能 / Purpose: 复用命中特效或弹痕对象，降低运行时实例化成本。
+ * English: Reuses hit effects or bullet decals to reduce runtime instantiation cost.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

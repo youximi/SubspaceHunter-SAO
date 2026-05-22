@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 敌人角色 IK 控制 / Enemy character IK control
+ * 功能 / Purpose: 驱动敌人动画 IK，使武器、手部和目标方向保持一致。
+ * English: Drives enemy animation IK so weapons, hands, and target directions stay aligned.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

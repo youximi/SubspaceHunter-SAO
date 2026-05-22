@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 敌人动画测试 / Enemy animation test
+ * 功能 / Purpose: 用于验证敌人模型、动画状态和动作切换。
+ * English: Used to validate enemy models, animation states, and action transitions.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

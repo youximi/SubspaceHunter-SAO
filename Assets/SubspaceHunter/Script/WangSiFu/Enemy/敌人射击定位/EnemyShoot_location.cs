@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 敌人射击定位 / Enemy shooting target location
+ * 功能 / Purpose: 计算敌人远程攻击或枪械射击的瞄准位置。
+ * English: Computes aim positions for enemy ranged attacks or firearm shots.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

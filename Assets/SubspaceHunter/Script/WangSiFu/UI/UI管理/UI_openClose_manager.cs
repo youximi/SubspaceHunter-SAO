@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: UI 打开关闭与渐隐 / UI open/close and fade
+ * 功能 / Purpose: 统一控制 UI 面板开关、显隐动画和渐隐状态。
+ * English: Centralizes UI panel open/close, visibility animation, and fade state.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

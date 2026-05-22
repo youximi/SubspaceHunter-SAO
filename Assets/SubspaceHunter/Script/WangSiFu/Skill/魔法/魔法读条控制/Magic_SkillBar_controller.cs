@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 魔法读条控制 / Magic cast-bar control
+ * 功能 / Purpose: 管理魔法准备读条、释放条件和取消状态。
+ * English: Manages magic cast preparation, release conditions, and cancellation state.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 //using Microsoft.Unity.VisualStudio.Editor;

@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 掉落检测 / Drop detection
+ * 功能 / Purpose: 检测物体掉落、执行回收或触发掉落管理逻辑。
+ * English: Detects dropped objects, performs recovery, or triggers drop-management logic.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 跟随与语音助手原型 / Follow and voice-assistant prototype
+ * 功能 / Purpose: 控制跟随对象或早期语音助手交互原型。
+ * English: Controls follower objects or early voice-assistant interaction prototypes.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

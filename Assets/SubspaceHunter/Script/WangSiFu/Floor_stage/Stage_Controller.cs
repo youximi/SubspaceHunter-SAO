@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 楼层与关卡阶段控制 / Floor and stage control
+ * 功能 / Purpose: 管理关卡楼层、阶段推进和场景演示状态。
+ * English: Manages floor levels, stage progression, and scene demo state.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

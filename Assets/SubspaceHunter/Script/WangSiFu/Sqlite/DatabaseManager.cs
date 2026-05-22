@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: SQLite 数据管理 / SQLite data management
+ * 功能 / Purpose: 管理本地数据库连接、场景数据读取和测试入口。
+ * English: Manages local database connections, scene-data access, and test entry points.
+ */
+
 using System;
 using System.Collections;
 using System.IO;

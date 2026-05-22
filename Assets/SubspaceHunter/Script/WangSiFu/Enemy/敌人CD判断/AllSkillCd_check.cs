@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 敌人技能冷却判断 / Enemy skill cooldown checks
+ * 功能 / Purpose: 集中判断敌人技能是否处于可释放或冷却状态。
+ * English: Centralizes checks for whether enemy skills are ready or on cooldown.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

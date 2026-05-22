@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: AR/MR 场景效果控制 / AR/MR scene effect control
+ * 功能 / Purpose: 管理 AR/MR 场景中的可视效果、环境表现和演示状态切换。
+ * English: Controls visual effects, environment presentation, and demo state switching in AR/MR scenes.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

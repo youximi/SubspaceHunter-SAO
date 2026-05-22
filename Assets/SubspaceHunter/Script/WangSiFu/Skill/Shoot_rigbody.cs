@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 技能与魔法系统 / Skill and magic system
+ * 功能 / Purpose: 管理玩家技能、魔法弹体、范围攻击、命中爆炸、护盾和提示表现。
+ * English: Manages player skills, magic projectiles, area attacks, hit explosions, shields, and hint presentation.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

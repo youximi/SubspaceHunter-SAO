@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 枪械控制 / Gun control
+ * 功能 / Purpose: 管理玩家或敌人的枪械射击、弹道、动画和输入响应。
+ * English: Manages player or enemy firearm shooting, ballistics, animation, and input response.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

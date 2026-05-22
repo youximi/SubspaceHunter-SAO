@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 系统状态控制 / System state control
+ * 功能 / Purpose: 管理运行时系统检测、全局开关或设置入口。
+ * English: Manages runtime system checks, global toggles, or settings entry points.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 功能道具 / Functional item
+ * 功能 / Purpose: 实现恢复、增益或其他可交互道具效果。
+ * English: Implements recovery, buffs, or other interactable item effects.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

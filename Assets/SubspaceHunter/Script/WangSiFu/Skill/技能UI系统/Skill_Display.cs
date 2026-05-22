@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 技能 UI / Skill UI
+ * 功能 / Purpose: 展示技能状态、图标、冷却或选择反馈。
+ * English: Displays skill state, icons, cooldowns, or selection feedback.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using CurvedUI;

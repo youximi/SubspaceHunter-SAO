@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 角色 IK 与控制器绑定 / Character IK and controller binding
+ * 功能 / Purpose: 处理手部、控制器和角色骨骼之间的 IK 对齐关系。
+ * English: Handles IK alignment between hands, controllers, and character bones.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

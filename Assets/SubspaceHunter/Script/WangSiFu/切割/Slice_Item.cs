@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 物体切割 / Object slicing
+ * 功能 / Purpose: 调用切割逻辑处理可切割物体的分裂和反馈。
+ * English: Invokes slicing logic for splitting cuttable objects and feedback.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

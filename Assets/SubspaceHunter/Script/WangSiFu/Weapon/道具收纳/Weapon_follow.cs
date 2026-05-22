@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 武器与道具收纳 / Weapon and item holster
+ * 功能 / Purpose: 管理武器跟随、插槽检测和道具收纳交互。
+ * English: Manages weapon following, slot detection, and item holster interactions.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;

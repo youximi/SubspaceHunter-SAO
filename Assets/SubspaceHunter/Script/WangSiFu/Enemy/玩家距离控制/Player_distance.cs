@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 敌人与玩家距离控制 / Enemy-player distance control
+ * 功能 / Purpose: 根据玩家距离调整敌人移动、攻击和保持距离策略。
+ * English: Adjusts enemy movement, attacks, and spacing strategies based on player distance.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

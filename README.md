@@ -57,7 +57,9 @@ https://www.bilibili.com/video/BV1mW421X7jg/<br>
 
 项目中涉及第三方资产包、插件、SDK 和库时，商业化前需要由使用者自行确认授权范围、购买状态和再分发条款。当前审计清单见 [docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md](docs/THIRD_PARTY_ASSET_PACKAGES.zh-CN.md)。
 
+## 项目架构与功能逻辑
 
+代码模块、公开 Demo 场景入口、战斗/敌人/武器/技能/UI 等系统说明见 [docs/ARCHITECTURE.zh-CN.md](docs/ARCHITECTURE.zh-CN.md)。
 
 ## Unity 版本
 

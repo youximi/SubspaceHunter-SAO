@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 剑气生成定位 / Sword-slash spawn positioning
+ * 功能 / Purpose: 根据武器姿态计算剑气或斩击特效的生成位置。
+ * English: Computes spawn positions for sword slash or blade-wave effects from weapon pose.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;

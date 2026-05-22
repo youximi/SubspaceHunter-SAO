@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 地面与高度校准 / Ground and height calibration
+ * 功能 / Purpose: 处理玩家高度重置、地面基准和 UI 触发的校准逻辑。
+ * English: Handles player height reset, ground reference, and UI-triggered calibration logic.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

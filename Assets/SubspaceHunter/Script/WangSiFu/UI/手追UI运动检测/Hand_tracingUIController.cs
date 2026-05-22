@@ -1,3 +1,10 @@
+/*
+ * SubspaceHunter-SAO bilingual code note / 双语代码说明
+ * 模块 / Module: 手势追踪 UI 检测 / Hand-tracking UI detection
+ * 功能 / Purpose: 检测手部在 UI 区域中的运动并触发交互反馈。
+ * English: Detects hand movement in UI regions and triggers interaction feedback.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
