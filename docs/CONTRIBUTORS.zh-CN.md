@@ -7,7 +7,7 @@
 ## 贡献者名单
 
 - Hexin Wang
-- KunagisaAi
+- Xinjian Zhuang
 
 
 
